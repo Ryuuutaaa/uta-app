@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_svg/flutter_svg.dart';
+import 'package:uta_app/core/configs/assets/app_vectors.dart';
 
 class Splash extends StatelessWidget {
   const Splash({super.key});
@@ -7,9 +9,7 @@ class Splash extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Center(
-        child: Image.asset(
-          
-        ),
+        child: SvgPicture.asset(AppVectors.logo),
       ),
     );
   }
