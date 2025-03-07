@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:uta_app/core/configs/assets/app_vectors.dart';
+import 'package:uta_app/presentation/intro/pages/get_started.dart';
 
 class SplashPage extends StatefulWidget {
   const SplashPage({super.key});
@@ -31,7 +32,7 @@ class _SplashPageState extends State<SplashPage> {
     Navigator.pushReplacement(
       context,
       MaterialPageRoute(
-        builder: (BuildContext context) => ,
+        builder: (BuildContext context) => const GetStartedPage(),
       ),
     );
   }
