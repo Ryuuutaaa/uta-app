@@ -27,7 +27,13 @@ class GetStartedPage extends StatelessWidget {
                   ),
                 ),
                 const Spacer(),
-                Text("Enjoy listening to music", style: TextStyle(fontWeight: FontWeight.bold, color: Colors.white, fontSize: 18))
+                Text(
+                  "Enjoy listening to music",
+                  style: TextStyle(fontWeight: FontWeight.bold, color: Colors.white, fontSize: 18),
+                ),
+                SizedBox(
+                  height: 21,
+                ),
               ],
             ),
           ),
