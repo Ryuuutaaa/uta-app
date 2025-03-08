@@ -34,6 +34,10 @@ class GetStartedPage extends StatelessWidget {
                 SizedBox(
                   height: 21,
                 ),
+                Text(
+                  "Listen to your favorite music on the go with our app and enjoy a seamless music experience. Get started now!",
+                  style: TextStyle(fontWeight: FontWeight.w500, color: Colors.grey, fontSize: 10),
+                ),
               ],
             ),
           ),
