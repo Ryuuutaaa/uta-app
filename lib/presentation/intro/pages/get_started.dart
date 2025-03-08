@@ -20,10 +20,14 @@ class GetStartedPage extends StatelessWidget {
             ),
             child: Column(
               children: [
-                SvgPicture.asset(
-                  AppVectors.logo,
+                Align(
+                  alignment: Alignment.topCenter,
+                  child: SvgPicture.asset(
+                    AppVectors.logo,
+                  ),
                 ),
                 const Spacer(),
+                Text("Enjoy listening to music", style: TextStyle(fontWeight: FontWeight.bold, color: Colors.white, fontSize: 18))
               ],
             ),
           ),
