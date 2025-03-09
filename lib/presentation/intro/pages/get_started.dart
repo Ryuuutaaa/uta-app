@@ -3,6 +3,7 @@ import 'package:flutter_svg/flutter_svg.dart';
 import 'package:uta_app/common/widget/button/basic_app_button.dart';
 import 'package:uta_app/core/configs/assets/app_images.dart';
 import 'package:uta_app/core/configs/assets/app_vectors.dart';
+import 'package:uta_app/presentation/choose_mode/pages/choose_mode.dart';
 
 class GetStartedPage extends StatelessWidget {
   const GetStartedPage({super.key});
@@ -48,7 +49,13 @@ class GetStartedPage extends StatelessWidget {
                   height: 20,
                 ),
                 BasicAppButton(
-                  onPressed: () {},
+                  onPressed: () {
+                    Navigator.of(context).push(
+                      MaterialPageRoute(
+                        builder: (BuildContext context) => const ChooseMode(),
+                      ),
+                    );
+                  },
                   title: "GET STARTED",
                   height: 80,
                 ),
