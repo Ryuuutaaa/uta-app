@@ -48,6 +48,23 @@ class ChooseMode extends StatelessWidget {
                 const SizedBox(
                   height: 21,
                 ),
+                Row(
+                  children: [
+                    Container(
+                      height: 50,
+                      width: 50,
+                      color: Colors.white,
+                    ),
+                    SizedBox(
+                      width: 20,
+                    ),
+                    Container(
+                      height: 50,
+                      width: 50,
+                      color: Colors.white,
+                    ),
+                  ],
+                ),
                 const SizedBox(
                   height: 50,
                 ),
