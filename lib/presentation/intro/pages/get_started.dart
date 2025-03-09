@@ -24,46 +24,46 @@ class GetStartedPage extends StatelessWidget {
                 image: AssetImage(AppImages.introBG),
               ),
             ),
-            child: Column(
-              children: [
-                Align(
-                  alignment: Alignment.topCenter,
-                  child: SvgPicture.asset(
-                    AppVectors.logo,
-                  ),
-                ),
-                const Spacer(),
-                const Text(
-                  "Enjoy listening to music",
-                  style: TextStyle(fontWeight: FontWeight.bold, color: Colors.white, fontSize: 18),
-                ),
-                const SizedBox(
-                  height: 21,
-                ),
-                const Text(
-                  "Listen to your favorite music on the go with our app and enjoy a seamless music experience. With our app, you can easily discover new music, create playlists, and download your favorite tracks to listen offline. Get started now and experience the best music streaming service! ",
-                  style: TextStyle(fontWeight: FontWeight.w500, color: Colors.grey, fontSize: 13),
-                  textAlign: TextAlign.center,
-                ),
-                const SizedBox(
-                  height: 20,
-                ),
-                BasicAppButton(
-                  onPressed: () {
-                    Navigator.of(context).push(
-                      MaterialPageRoute(
-                        builder: (BuildContext context) => const ChooseMode(),
-                      ),
-                    );
-                  },
-                  title: "GET STARTED",
-                  height: 80,
-                ),
-              ],
-            ),
           ),
           Container(
             color: Colors.black.withOpacity(0.15),
+          ),
+          Column(
+            children: [
+              Align(
+                alignment: Alignment.topCenter,
+                child: SvgPicture.asset(
+                  AppVectors.logo,
+                ),
+              ),
+              const Spacer(),
+              const Text(
+                "Enjoy listening to music",
+                style: TextStyle(fontWeight: FontWeight.bold, color: Colors.white, fontSize: 18),
+              ),
+              const SizedBox(
+                height: 21,
+              ),
+              const Text(
+                "Listen to your favorite music on the go with our app and enjoy a seamless music experience. With our app, you can easily discover new music, create playlists, and download your favorite tracks to listen offline. Get started now and experience the best music streaming service! ",
+                style: TextStyle(fontWeight: FontWeight.w500, color: Colors.grey, fontSize: 13),
+                textAlign: TextAlign.center,
+              ),
+              const SizedBox(
+                height: 20,
+              ),
+              BasicAppButton(
+                onPressed: () {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (BuildContext context) => const ChooseMode(),
+                    ),
+                  );
+                },
+                title: "GET STARTED",
+                height: 80,
+              ),
+            ],
           ),
         ],
       ),
