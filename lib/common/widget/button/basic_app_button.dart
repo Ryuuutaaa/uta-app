@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 class BasicAppButton extends StatelessWidget {
   final VoidCallback onPressed;
   final String title;
-  final double ?  height;
+  final double? height;
   const BasicAppButton({super.key, required this.onPressed, required this.title, required this.height});
 
   @override
