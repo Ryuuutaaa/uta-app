@@ -13,11 +13,11 @@ class GetStartedPage extends StatelessWidget {
       body: Stack(
         children: [
           Container(
-            padding: EdgeInsets.symmetric(
+            padding: const EdgeInsets.symmetric(
               horizontal: 40,
               vertical: 40,
             ),
-            decoration: BoxDecoration(
+            decoration: const BoxDecoration(
               image: DecorationImage(
                 fit: BoxFit.fill,
                 image: AssetImage(AppImages.introBG),
@@ -32,19 +32,19 @@ class GetStartedPage extends StatelessWidget {
                   ),
                 ),
                 const Spacer(),
-                Text(
+                const Text(
                   "Enjoy listening to music",
                   style: TextStyle(fontWeight: FontWeight.bold, color: Colors.white, fontSize: 18),
                 ),
-                SizedBox(
+                const SizedBox(
                   height: 21,
                 ),
-                Text(
+                const Text(
                   "Listen to your favorite music on the go with our app and enjoy a seamless music experience. With our app, you can easily discover new music, create playlists, and download your favorite tracks to listen offline. Get started now and experience the best music streaming service! ",
                   style: TextStyle(fontWeight: FontWeight.w500, color: Colors.grey, fontSize: 13),
                   textAlign: TextAlign.center,
                 ),
-                SizedBox(
+                const SizedBox(
                   height: 20,
                 ),
                 BasicAppButton(
