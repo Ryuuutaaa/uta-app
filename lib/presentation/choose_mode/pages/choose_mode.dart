@@ -48,13 +48,8 @@ class ChooseMode extends StatelessWidget {
                 const SizedBox(
                   height: 21,
                 ),
-                const Text(
-                  "Listen to your favorite music on the go with our app and enjoy a seamless music experience. With our app, you can easily discover new music, create playlists, and download your favorite tracks to listen offline. Get started now and experience the best music streaming service! ",
-                  style: TextStyle(fontWeight: FontWeight.w500, color: Colors.grey, fontSize: 13),
-                  textAlign: TextAlign.center,
-                ),
                 const SizedBox(
-                  height: 20,
+                  height: 50,
                 ),
                 BasicAppButton(
                   onPressed: () {
