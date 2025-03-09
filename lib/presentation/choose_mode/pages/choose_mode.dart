@@ -20,7 +20,7 @@ class ChooseMode extends StatelessWidget {
             decoration: const BoxDecoration(
               image: DecorationImage(
                 fit: BoxFit.fill,
-                image: AssetImage(AppImages.introBG),
+                image: AssetImage(AppImages.chooseModeBG),
               ),
             ),
           ),
@@ -42,7 +42,7 @@ class ChooseMode extends StatelessWidget {
                 ),
                 const Spacer(),
                 const Text(
-                  "Enjoy listening to music",
+                  "Choose Mode",
                   style: TextStyle(fontWeight: FontWeight.bold, color: Colors.white, fontSize: 18),
                 ),
                 const SizedBox(
