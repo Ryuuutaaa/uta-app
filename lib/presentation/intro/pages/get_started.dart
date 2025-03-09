@@ -50,7 +50,7 @@ class GetStartedPage extends StatelessWidget {
                 BasicAppButton(
                   onPressed: () {},
                   title: "GET STARTED",
-                  height: 20,
+                  height: 80,
                 ),
               ],
             ),
