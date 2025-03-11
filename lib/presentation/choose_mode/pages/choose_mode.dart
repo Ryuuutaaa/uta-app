@@ -111,7 +111,7 @@ class ChooseMode extends StatelessWidget {
                           height: 15,
                         ),
                         Text(
-                          "Dark Mode",
+                          "Light Mode",
                           style: TextStyle(
                             fontWeight: FontWeight.w500,
                             fontSize: 17,
