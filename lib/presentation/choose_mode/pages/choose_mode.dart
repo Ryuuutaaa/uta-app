@@ -46,7 +46,7 @@ class ChooseMode extends StatelessWidget {
                   style: TextStyle(fontWeight: FontWeight.bold, color: Colors.white, fontSize: 18),
                 ),
                 const SizedBox(
-                  height: 21,
+                  height: 40,
                 ),
                 Row(
                   mainAxisAlignment: MainAxisAlignment.center,
