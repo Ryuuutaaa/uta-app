@@ -63,6 +63,9 @@ class ChooseMode extends StatelessWidget {
                             color: Color(0xff30393C).withOpacity(0.5),
                             shape: BoxShape.circle,
                           ),
+                          child: SvgPicture.asset(
+                            AppVectors.moon,
+                          ),
                         ),
                       ),
                     ),
