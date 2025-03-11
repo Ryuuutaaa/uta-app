@@ -49,11 +49,15 @@ class ChooseMode extends StatelessWidget {
                   height: 21,
                 ),
                 Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     Container(
                       height: 50,
                       width: 50,
-                      color: Colors.white,
+                      decoration: BoxDecoration(
+                        color: Colors.white,
+                        shape: BoxShape.circle,
+                      ),
                     ),
                     const SizedBox(
                       width: 20,
@@ -61,7 +65,10 @@ class ChooseMode extends StatelessWidget {
                     Container(
                       height: 50,
                       width: 50,
-                      color: Colors.white,
+                      decoration: BoxDecoration(
+                        color: Colors.white,
+                        shape: BoxShape.circle,
+                      ),
                     ),
                   ],
                 ),
