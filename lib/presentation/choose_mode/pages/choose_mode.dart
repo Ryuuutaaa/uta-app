@@ -65,6 +65,7 @@ class ChooseMode extends StatelessWidget {
                           ),
                           child: SvgPicture.asset(
                             AppVectors.moon,
+                            fit: BoxFit.none,
                           ),
                         ),
                       ),
