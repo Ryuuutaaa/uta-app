@@ -72,6 +72,17 @@ class ChooseMode extends StatelessWidget {
                             ),
                           ),
                         ),
+                        SizedBox(
+                          height: 15,
+                        ),
+                        Text(
+                          "Dark Mode",
+                          style: TextStyle(
+                            fontWeight: FontWeight.w500,
+                            fontSize: 17,
+                            color: Colors.white,
+                          ),
+                        )
                       ],
                     ),
                     const SizedBox(
