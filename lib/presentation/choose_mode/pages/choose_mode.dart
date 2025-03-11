@@ -82,28 +82,43 @@ class ChooseMode extends StatelessWidget {
                             fontSize: 17,
                             color: Colors.grey,
                           ),
-                        )
+                        ),
                       ],
                     ),
                     const SizedBox(
                       width: 40,
                     ),
-                    ClipOval(
-                      child: BackdropFilter(
-                        filter: ImageFilter.blur(sigmaX: 10, sigmaY: 10),
-                        child: Container(
-                          height: 80,
-                          width: 80,
-                          decoration: BoxDecoration(
-                            color: Color(0xff30393C).withOpacity(0.5),
-                            shape: BoxShape.circle,
-                          ),
-                          child: SvgPicture.asset(
-                            AppVectors.sun,
-                            fit: BoxFit.none,
+                    Column(
+                      children: [
+                        ClipOval(
+                          child: BackdropFilter(
+                            filter: ImageFilter.blur(sigmaX: 10, sigmaY: 10),
+                            child: Container(
+                              height: 80,
+                              width: 80,
+                              decoration: BoxDecoration(
+                                color: Color(0xff30393C).withOpacity(0.5),
+                                shape: BoxShape.circle,
+                              ),
+                              child: SvgPicture.asset(
+                                AppVectors.sun,
+                                fit: BoxFit.none,
+                              ),
+                            ),
                           ),
                         ),
-                      ),
+                        SizedBox(
+                          height: 15,
+                        ),
+                        Text(
+                          "Dark Mode",
+                          style: TextStyle(
+                            fontWeight: FontWeight.w500,
+                            fontSize: 17,
+                            color: Colors.grey,
+                          ),
+                        ),
+                      ],
                     ),
                   ],
                 ),
