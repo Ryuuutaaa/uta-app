@@ -133,7 +133,7 @@ class ChooseMode extends StatelessWidget {
                       ),
                     );
                   },
-                  title: "GET STARTED",
+                  title: "Continue",
                   height: 80,
                 ),
               ],
