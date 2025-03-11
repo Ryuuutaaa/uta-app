@@ -80,7 +80,7 @@ class ChooseMode extends StatelessWidget {
                           style: TextStyle(
                             fontWeight: FontWeight.w500,
                             fontSize: 17,
-                            color: Colors.white,
+                            color: Colors.grey,
                           ),
                         )
                       ],
