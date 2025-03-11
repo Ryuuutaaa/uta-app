@@ -63,8 +63,8 @@ class ChooseMode extends StatelessWidget {
                       width: 40,
                     ),
                     Container(
-                      height: 50,
-                      width: 50,
+                      height: 80,
+                      width: 80,
                       decoration: BoxDecoration(
                         color: Colors.white,
                         shape: BoxShape.circle,
