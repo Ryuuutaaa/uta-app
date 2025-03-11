@@ -60,7 +60,7 @@ class ChooseMode extends StatelessWidget {
                       ),
                     ),
                     const SizedBox(
-                      width: 20,
+                      width: 40,
                     ),
                     Container(
                       height: 50,
