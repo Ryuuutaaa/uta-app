@@ -30,6 +30,8 @@ class MyApp extends StatelessWidget {
         builder: (context, mode) => MaterialApp(
           debugShowCheckedModeBanner: false,
           theme: AppTheme.lightTheme,
+          darkTheme: AppTheme.darkTheme,
+          themeMode: mode,
           home: const SplashPage(),
         ),
       ),

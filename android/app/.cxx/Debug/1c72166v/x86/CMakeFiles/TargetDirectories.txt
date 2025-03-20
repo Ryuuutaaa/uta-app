@@ -1,0 +1,2 @@
+C:/shigoto/fllutteran/uta_app/android/app/.cxx/Debug/1c72166v/x86/CMakeFiles/edit_cache.dir
+C:/shigoto/fllutteran/uta_app/android/app/.cxx/Debug/1c72166v/x86/CMakeFiles/rebuild_cache.dir
