@@ -44,8 +44,11 @@ class ChooseMode extends StatelessWidget {
                 ),
                 const Spacer(),
                 const Text(
-                  "Choose Mode",
-                  style: TextStyle(fontWeight: FontWeight.bold, color: Colors.white, fontSize: 18),
+                  "Choose Your Mood Mode",
+                  style: TextStyle(
+                      fontWeight: FontWeight.bold,
+                      color: Colors.white,
+                      fontSize: 18),
                 ),
                 const SizedBox(
                   height: 40,
