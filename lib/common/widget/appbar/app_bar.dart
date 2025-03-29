@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:uta_app/common/helper/is_dark_mode_theme.dart';
 
-class BasicAppBar extends StatelessWidget {
+class BasicAppBar extends StatelessWidget implements PreferredSizeWidget {
   const BasicAppBar({super.key});
 
   @override
@@ -31,4 +31,7 @@ class BasicAppBar extends StatelessWidget {
       ),
     );
   }
+
+  @override
+  Size get preferredSize => const Size.fromHeight(kToolbarHeight);
 }
