@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:uta_app/common/helper/is_dark_mode_theme.dart';
+import 'package:uta_app/common/widget/appbar/app_bar.dart';
 import 'package:uta_app/common/widget/button/basic_app_button.dart';
 import 'package:uta_app/core/configs/assets/app_images.dart';
 import 'package:uta_app/core/configs/assets/app_vectors.dart';
@@ -14,6 +15,7 @@ class SignupOrSigninPage extends StatelessWidget {
     return Scaffold(
       body: Stack(
         children: [
+          const BasicAppBar(),
           Align(
             alignment: Alignment.topRight,
             child: SvgPicture.asset(AppVectors.topPattern),

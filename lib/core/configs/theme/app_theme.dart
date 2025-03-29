@@ -10,6 +10,7 @@ class AppTheme {
     elevatedButtonTheme: ElevatedButtonThemeData(
       style: ElevatedButton.styleFrom(
         backgroundColor: AppColors.primary,
+        elevation: 0,
         textStyle: const TextStyle(
           fontSize: 20,
           fontWeight: FontWeight.bold,
