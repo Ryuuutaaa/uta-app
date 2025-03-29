@@ -15,7 +15,9 @@ class BasicAppBar extends StatelessWidget {
           height: 50,
           width: 50,
           decoration: BoxDecoration(
-            color: Colors.white.withOpacity(0.03),
+            color: context.isDarkMode
+                ? Colors.white.withOpacity(0.03)
+                : Colors.black.withOpacity(0.04),
             shape: BoxShape.circle,
           ),
           child: Icon(
