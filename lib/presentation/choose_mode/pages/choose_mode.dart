@@ -65,7 +65,7 @@ class ChooseMode extends StatelessWidget {
                               height: 80,
                               width: 80,
                               decoration: BoxDecoration(
-                                color: Color(0xff30393C).withOpacity(0.5),
+                                color: const Color(0xff30393C).withOpacity(0.5),
                                 shape: BoxShape.circle,
                               ),
                               child: SvgPicture.asset(
@@ -75,10 +75,10 @@ class ChooseMode extends StatelessWidget {
                             ),
                           ),
                         ),
-                        SizedBox(
+                        const SizedBox(
                           height: 15,
                         ),
-                        Text(
+                        const Text(
                           "Dark Mode",
                           style: TextStyle(
                             fontWeight: FontWeight.w500,
@@ -100,7 +100,7 @@ class ChooseMode extends StatelessWidget {
                               height: 80,
                               width: 80,
                               decoration: BoxDecoration(
-                                color: Color(0xff30393C).withOpacity(0.5),
+                                color: const Color(0xff30393C).withOpacity(0.5),
                                 shape: BoxShape.circle,
                               ),
                               child: SvgPicture.asset(
@@ -110,10 +110,10 @@ class ChooseMode extends StatelessWidget {
                             ),
                           ),
                         ),
-                        SizedBox(
+                        const SizedBox(
                           height: 15,
                         ),
-                        Text(
+                        const Text(
                           "Light Mode",
                           style: TextStyle(
                             fontWeight: FontWeight.w500,
