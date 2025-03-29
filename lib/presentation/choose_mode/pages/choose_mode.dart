@@ -141,7 +141,8 @@ class ChooseMode extends StatelessWidget {
                 ),
                 BasicAppButton(
                   onPressed: () {
-                    Navigator.of(context).push(
+                    Navigator.pushReplacement(
+                      context,
                       MaterialPageRoute(
                         builder: (BuildContext context) =>
                             const SignupOrSigninPage(),
