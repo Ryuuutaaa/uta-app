@@ -1,13 +1,20 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_svg/svg.dart';
+import 'package:uta_app/core/configs/assets/app_vectors.dart';
 
-class SignupOrSignin extends StatelessWidget {
-  const SignupOrSignin({super.key});
+class SignupOrSigninPage extends StatelessWidget {
+  const SignupOrSigninPage({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       body: Stack(
-        children: [],
+        children: [
+          Align(
+            alignment: Alignment.topRight,
+            child: SvgPicture.asset(AppVectors.topPattern ),
+          )
+        ],
       ),
     );
   }

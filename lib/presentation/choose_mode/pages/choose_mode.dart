@@ -6,6 +6,7 @@ import 'package:flutter_svg/svg.dart';
 import 'package:uta_app/common/widget/button/basic_app_button.dart';
 import 'package:uta_app/core/configs/assets/app_images.dart';
 import 'package:uta_app/core/configs/assets/app_vectors.dart';
+import 'package:uta_app/presentation/auth/pages/signup_or_signin.dart';
 import 'package:uta_app/presentation/choose_mode/bloc/theme_cubit.dart';
 
 class ChooseMode extends StatelessWidget {
@@ -142,7 +143,8 @@ class ChooseMode extends StatelessWidget {
                   onPressed: () {
                     Navigator.of(context).push(
                       MaterialPageRoute(
-                        builder: (BuildContext context) => const ChooseMode(),
+                        builder: (BuildContext context) =>
+                            const SignupOrSigninPage(),
                       ),
                     );
                   },
